@@ -63,8 +63,8 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-   'quotes_scraper.pipelines.QuotesMongoDBPipeline': 300,
-   'quotes_scraper.pipelines.AuthorsMongoDBPipeline': 400,
+   'quotes_scraper.pipelines.QuotesJsonPipeline': 300,
+   'quotes_scraper.pipelines.AuthorsJsonPipeline': 400,
 }
 
 
